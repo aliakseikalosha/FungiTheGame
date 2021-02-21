@@ -1,0 +1,2084 @@
+fileFormatVersion: 2
+guid: 9e27c9ad56beda04b9d55f3dd211276b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1459458051413904079
+    second: Warrior_SheetnoEffect_0
+  - first:
+      213: 359170815697947668
+    second: Warrior_SheetnoEffect_1
+  - first:
+      213: -8220729467712961139
+    second: Warrior_SheetnoEffect_2
+  - first:
+      213: 5872842931014740882
+    second: Warrior_SheetnoEffect_3
+  - first:
+      213: 6813737609034609192
+    second: Warrior_SheetnoEffect_4
+  - first:
+      213: 1252741959807183917
+    second: Warrior_SheetnoEffect_5
+  - first:
+      213: -589479829849459968
+    second: Warrior_SheetnoEffect_6
+  - first:
+      213: -2225303593433192470
+    second: Warrior_SheetnoEffect_7
+  - first:
+      213: 711731054339644605
+    second: Warrior_SheetnoEffect_8
+  - first:
+      213: 8827041205860659437
+    second: Warrior_SheetnoEffect_9
+  - first:
+      213: -4531196692211296701
+    second: Warrior_SheetnoEffect_10
+  - first:
+      213: -1002207024202496282
+    second: Warrior_SheetnoEffect_11
+  - first:
+      213: -3633421932862571679
+    second: Warrior_SheetnoEffect_12
+  - first:
+      213: -7809123221476925388
+    second: Warrior_SheetnoEffect_13
+  - first:
+      213: -7826861071389423882
+    second: Warrior_SheetnoEffect_14
+  - first:
+      213: 6119079320171274209
+    second: Warrior_SheetnoEffect_15
+  - first:
+      213: 5367960543324356744
+    second: Warrior_SheetnoEffect_16
+  - first:
+      213: -7953904400877069620
+    second: Warrior_SheetnoEffect_17
+  - first:
+      213: -1755196195047778427
+    second: Warrior_SheetnoEffect_18
+  - first:
+      213: -3610891807505899824
+    second: Warrior_SheetnoEffect_19
+  - first:
+      213: -2457495719821501130
+    second: Warrior_SheetnoEffect_20
+  - first:
+      213: 2335949746256416935
+    second: Warrior_SheetnoEffect_21
+  - first:
+      213: 2281034495841147979
+    second: Warrior_SheetnoEffect_22
+  - first:
+      213: -8790582103094051324
+    second: Warrior_SheetnoEffect_23
+  - first:
+      213: 4910841173174485456
+    second: Warrior_SheetnoEffect_24
+  - first:
+      213: -7048519384785837501
+    second: Warrior_SheetnoEffect_25
+  - first:
+      213: 4739410361002896916
+    second: Warrior_SheetnoEffect_26
+  - first:
+      213: 8803923152949617137
+    second: Warrior_SheetnoEffect_27
+  - first:
+      213: 7405160166243886877
+    second: Warrior_SheetnoEffect_28
+  - first:
+      213: -6930562774783334623
+    second: Warrior_SheetnoEffect_29
+  - first:
+      213: 5847282133147261615
+    second: Warrior_SheetnoEffect_30
+  - first:
+      213: 3256854589360385887
+    second: Warrior_SheetnoEffect_31
+  - first:
+      213: 2663064787322560717
+    second: Warrior_SheetnoEffect_32
+  - first:
+      213: -7761232957135373661
+    second: Warrior_SheetnoEffect_33
+  - first:
+      213: -718568859206869386
+    second: Warrior_SheetnoEffect_34
+  - first:
+      213: 8259480690542273036
+    second: Warrior_SheetnoEffect_35
+  - first:
+      213: 4069662938972889761
+    second: Warrior_SheetnoEffect_36
+  - first:
+      213: 456946378823254976
+    second: Warrior_SheetnoEffect_37
+  - first:
+      213: -6998019777905318313
+    second: Warrior_SheetnoEffect_38
+  - first:
+      213: 1240805322172666571
+    second: Warrior_SheetnoEffect_39
+  - first:
+      213: 8298387396569154617
+    second: Warrior_SheetnoEffect_40
+  - first:
+      213: -6202454919972933791
+    second: Warrior_SheetnoEffect_41
+  - first:
+      213: -1306023488744233559
+    second: Warrior_SheetnoEffect_42
+  - first:
+      213: 6753789944390083632
+    second: Warrior_SheetnoEffect_43
+  - first:
+      213: -5291440411977846726
+    second: Warrior_SheetnoEffect_44
+  - first:
+      213: 5173469159935111762
+    second: Warrior_SheetnoEffect_45
+  - first:
+      213: -2749051431520427751
+    second: Warrior_SheetnoEffect_46
+  - first:
+      213: -1663813028376188481
+    second: Warrior_SheetnoEffect_47
+  - first:
+      213: -4746090456694959965
+    second: Warrior_SheetnoEffect_48
+  - first:
+      213: 8456781455918796069
+    second: Warrior_SheetnoEffect_49
+  - first:
+      213: -6198279566977372875
+    second: Warrior_SheetnoEffect_50
+  - first:
+      213: 8831371568066152587
+    second: Warrior_SheetnoEffect_51
+  - first:
+      213: 5358277598789592532
+    second: Warrior_SheetnoEffect_52
+  - first:
+      213: -2690619919191375969
+    second: Warrior_SheetnoEffect_53
+  - first:
+      213: -6197311563536490153
+    second: Warrior_SheetnoEffect_54
+  - first:
+      213: -780802658179346811
+    second: Warrior_SheetnoEffect_55
+  - first:
+      213: -3992741688669438026
+    second: Warrior_SheetnoEffect_56
+  - first:
+      213: 5574794532253237584
+    second: Warrior_SheetnoEffect_57
+  - first:
+      213: 8676734833561832908
+    second: Warrior_SheetnoEffect_58
+  - first:
+      213: -4379293928849917247
+    second: Warrior_SheetnoEffect_59
+  - first:
+      213: 2776984075451380501
+    second: Warrior_SheetnoEffect_60
+  - first:
+      213: 3602916698307403072
+    second: Warrior_SheetnoEffect_61
+  - first:
+      213: 8857661451550244838
+    second: Warrior_SheetnoEffect_62
+  - first:
+      213: 4681548934482222617
+    second: Warrior_SheetnoEffect_63
+  - first:
+      213: 7219762561262908552
+    second: Warrior_SheetnoEffect_64
+  - first:
+      213: -120700786213653087
+    second: Warrior_SheetnoEffect_65
+  - first:
+      213: 2609196364727710751
+    second: Warrior_SheetnoEffect_66
+  - first:
+      213: 7133254357242421846
+    second: Warrior_SheetnoEffect_67
+  - first:
+      213: -8804831404700281966
+    second: Warrior_SheetnoEffect_68
+  - first:
+      213: 7796489720157118539
+    second: Warrior_SheetnoEffect_69
+  - first:
+      213: 4151046763693669347
+    second: Warrior_SheetnoEffect_70
+  - first:
+      213: -4162129941589120387
+    second: Warrior_SheetnoEffect_71
+  - first:
+      213: 3032867974267129088
+    second: Warrior_SheetnoEffect_72
+  - first:
+      213: -1829377064002598094
+    second: Warrior_SheetnoEffect_73
+  - first:
+      213: -956870321305392998
+    second: Warrior_SheetnoEffect_74
+  - first:
+      213: -4280123317493518697
+    second: Warrior_SheetnoEffect_75
+  - first:
+      213: 638301610157169233
+    second: Warrior_SheetnoEffect_76
+  - first:
+      213: -5545493219511776571
+    second: Warrior_SheetnoEffect_77
+  - first:
+      213: 4171936540592933651
+    second: Warrior_SheetnoEffect_78
+  - first:
+      213: -2227078935734850399
+    second: Warrior_SheetnoEffect_79
+  - first:
+      213: 5002333559132555977
+    second: Warrior_SheetnoEffect_80
+  - first:
+      213: 1269608071664470536
+    second: Warrior_SheetnoEffect_81
+  - first:
+      213: -5649971472603466743
+    second: Warrior_SheetnoEffect_82
+  - first:
+      213: 1945226468877558368
+    second: Warrior_SheetnoEffect_83
+  - first:
+      213: -3602231187581361685
+    second: Warrior_SheetnoEffect_84
+  - first:
+      213: -8151579037687842364
+    second: Warrior_SheetnoEffect_85
+  - first:
+      213: 8302211577951854100
+    second: Warrior_SheetnoEffect_86
+  - first:
+      213: -2239141060947697248
+    second: Warrior_SheetnoEffect_87
+  - first:
+      213: -8688942437272331585
+    second: Warrior_SheetnoEffect_88
+  - first:
+      213: -911998533861133671
+    second: Warrior_SheetnoEffect_89
+  - first:
+      213: -423483337211887903
+    second: Warrior_SheetnoEffect_90
+  - first:
+      213: -2968783049134217904
+    second: Warrior_SheetnoEffect_91
+  - first:
+      213: 703853497055010165
+    second: Warrior_SheetnoEffect_92
+  - first:
+      213: 4362404520178182635
+    second: Warrior_SheetnoEffect_93
+  - first:
+      213: 4674258658674478611
+    second: Warrior_SheetnoEffect_94
+  - first:
+      213: -513994488956476597
+    second: Warrior_SheetnoEffect_95
+  - first:
+      213: -6076401008233008812
+    second: Warrior_SheetnoEffect_96
+  - first:
+      213: -3900595950621344200
+    second: Warrior_SheetnoEffect_97
+  - first:
+      213: 626327368723908316
+    second: Warrior_SheetnoEffect_98
+  - first:
+      213: -1360115457011327142
+    second: Warrior_SheetnoEffect_99
+  - first:
+      213: -8788656644138488930
+    second: Warrior_SheetnoEffect_100
+  - first:
+      213: -7664659027410433125
+    second: Warrior_SheetnoEffect_101
+  - first:
+      213: -8480875249022987213
+    second: Warrior_SheetnoEffect_102
+  - first:
+      213: 1485449849985026584
+    second: Warrior_SheetnoEffect_103
+  - first:
+      213: -2805961132150868502
+    second: Warrior_SheetnoEffect_104
+  - first:
+      213: 953347379264403983
+    second: Warrior_SheetnoEffect_105
+  - first:
+      213: -4433015934263344367
+    second: Warrior_SheetnoEffect_106
+  - first:
+      213: -824049768462419014
+    second: Warrior_SheetnoEffect_107
+  - first:
+      213: 1339123288210604485
+    second: Warrior_SheetnoEffect_108
+  - first:
+      213: -2705423039415923341
+    second: Warrior_SheetnoEffect_109
+  - first:
+      213: -3902981989156012635
+    second: Warrior_SheetnoEffect_110
+  - first:
+      213: 1635259790918800794
+    second: Warrior_SheetnoEffect_111
+  - first:
+      213: -8752145203435359975
+    second: Warrior_SheetnoEffect_112
+  - first:
+      213: 137826916984534417
+    second: Warrior_SheetnoEffect_113
+  - first:
+      213: -7368475119490074548
+    second: Warrior_SheetnoEffect_114
+  - first:
+      213: 2406742895134846437
+    second: Warrior_SheetnoEffect_115
+  - first:
+      213: 8622892868012048462
+    second: Warrior_SheetnoEffect_116
+  - first:
+      213: -1829955552848325720
+    second: Warrior_SheetnoEffect_117
+  - first:
+      213: 5536535173922866559
+    second: Warrior_SheetnoEffect_118
+  - first:
+      213: 4375452257040736943
+    second: Warrior_SheetnoEffect_119
+  - first:
+      213: 1084890266469200113
+    second: Warrior_SheetnoEffect_120
+  - first:
+      213: 8144543141301627532
+    second: Warrior_SheetnoEffect_121
+  - first:
+      213: -6371316713322106163
+    second: Warrior_SheetnoEffect_122
+  - first:
+      213: 9077252908447321410
+    second: Warrior_SheetnoEffect_123
+  - first:
+      213: 4671810123326833272
+    second: Warrior_SheetnoEffect_124
+  - first:
+      213: -8279762702994243398
+    second: Warrior_SheetnoEffect_125
+  - first:
+      213: 3536143642543804805
+    second: Warrior_SheetnoEffect_126
+  - first:
+      213: -5942789264335718877
+    second: Warrior_SheetnoEffect_127
+  - first:
+      213: -7525982142956318863
+    second: Warrior_SheetnoEffect_128
+  - first:
+      213: -4199540226305285314
+    second: Warrior_SheetnoEffect_129
+  - first:
+      213: -8308093236064179494
+    second: Warrior_SheetnoEffect_130
+  - first:
+      213: 2313224037981611807
+    second: Warrior_SheetnoEffect_131
+  - first:
+      213: -4604198617996568017
+    second: Warrior_SheetnoEffect_132
+  - first:
+      213: 1061001392434508434
+    second: Warrior_SheetnoEffect_133
+  - first:
+      213: 6766344017608286847
+    second: Warrior_SheetnoEffect_134
+  - first:
+      213: -5377676401612484728
+    second: Warrior_SheetnoEffect_135
+  - first:
+      213: -7470271166751968750
+    second: Warrior_SheetnoEffect_136
+  - first:
+      213: -1421739053133140607
+    second: Warrior_SheetnoEffect_137
+  - first:
+      213: 3899251738257201634
+    second: Warrior_SheetnoEffect_138
+  - first:
+      213: 2708047890022096573
+    second: Warrior_SheetnoEffect_139
+  - first:
+      213: 741819824601960932
+    second: Warrior_SheetnoEffect_140
+  - first:
+      213: 9152697108557889537
+    second: Warrior_SheetnoEffect_141
+  - first:
+      213: -6619925476226859523
+    second: Warrior_SheetnoEffect_142
+  - first:
+      213: 6544338437189291191
+    second: Warrior_SheetnoEffect_143
+  - first:
+      213: -4669114278844284103
+    second: Warrior_SheetnoEffect_144
+  - first:
+      213: -3354496482853784570
+    second: Warrior_SheetnoEffect_145
+  - first:
+      213: -6979438985060491177
+    second: Warrior_SheetnoEffect_146
+  - first:
+      213: 2515851028505117342
+    second: Warrior_SheetnoEffect_147
+  - first:
+      213: 1214063566198200083
+    second: Warrior_SheetnoEffect_148
+  - first:
+      213: 1807605955762134065
+    second: Warrior_SheetnoEffect_149
+  - first:
+      213: 1837835888810029541
+    second: Warrior_SheetnoEffect_150
+  - first:
+      213: 6005322846985427515
+    second: Warrior_SheetnoEffect_151
+  - first:
+      213: 726231672527003689
+    second: Warrior_SheetnoEffect_152
+  - first:
+      213: -2172605889171471955
+    second: Warrior_SheetnoEffect_153
+  - first:
+      213: 7182646139665876572
+    second: Warrior_SheetnoEffect_154
+  - first:
+      213: 5313183319941417899
+    second: Warrior_SheetnoEffect_155
+  - first:
+      213: 8071887510692388608
+    second: Warrior_SheetnoEffect_156
+  - first:
+      213: -6903179844611517899
+    second: Warrior_SheetnoEffect_157
+  - first:
+      213: 2195352970855661062
+    second: Warrior_SheetnoEffect_158
+  - first:
+      213: 4686471869763653106
+    second: Warrior_SheetnoEffect_159
+  - first:
+      213: 5691716680603871151
+    second: Warrior_SheetnoEffect_160
+  - first:
+      213: 2743938967601465490
+    second: Warrior_SheetnoEffect_161
+  - first:
+      213: -8700291177655771666
+    second: Warrior_SheetnoEffect_162
+  - first:
+      213: -7683029940478849935
+    second: Warrior_SheetnoEffect_163
+  - first:
+      213: -3141072962525331432
+    second: Warrior_SheetnoEffect_164
+  - first:
+      213: 4492551644264475125
+    second: Warrior_SheetnoEffect_165
+  - first:
+      213: -169204369456120565
+    second: Warrior_SheetnoEffect_166
+  - first:
+      213: 1594336922457896074
+    second: Warrior_SheetnoEffect_167
+  - first:
+      213: 1897418940558062803
+    second: Warrior_SheetnoEffect_168
+  - first:
+      213: 7055590817927821924
+    second: Warrior_SheetnoEffect_169
+  - first:
+      213: 8128191505488255737
+    second: Warrior_SheetnoEffect_170
+  - first:
+      213: -1491165475276723991
+    second: Warrior_SheetnoEffect_171
+  - first:
+      213: 2808575707363301394
+    second: Warrior_SheetnoEffect_172
+  - first:
+      213: 7758160982833740828
+    second: Warrior_SheetnoEffect_173
+  - first:
+      213: 3329449617231420046
+    second: Warrior_SheetnoEffect_174
+  - first:
+      213: -1963657546228404919
+    second: Warrior_SheetnoEffect_175
+  - first:
+      213: 8234829330877689154
+    second: Warrior_SheetnoEffect_176
+  - first:
+      213: -6083991784863135334
+    second: Warrior_SheetnoEffect_177
+  - first:
+      213: -2290270014843960574
+    second: Warrior_SheetnoEffect_178
+  - first:
+      213: -4977190024408931234
+    second: Warrior_SheetnoEffect_179
+  - first:
+      213: 3452678790852436063
+    second: Warrior_SheetnoEffect_180
+  - first:
+      213: 2772286954464472437
+    second: Warrior_SheetnoEffect_181
+  - first:
+      213: 5315199524286660652
+    second: Warrior_SheetnoEffect_182
+  - first:
+      213: -1824908448020243521
+    second: Warrior_SheetnoEffect_183
+  - first:
+      213: 7260272238861556469
+    second: Warrior_SheetnoEffect_184
+  - first:
+      213: 3071597931555993191
+    second: Warrior_SheetnoEffect_185
+  - first:
+      213: -7453341091512256104
+    second: Warrior_SheetnoEffect_186
+  - first:
+      213: 1469632493530075219
+    second: Warrior_SheetnoEffect_187
+  - first:
+      213: 7827516404166468584
+    second: Warrior_SheetnoEffect_188
+  - first:
+      213: 5342002128165029765
+    second: Warrior_SheetnoEffect_189
+  - first:
+      213: 4375665644186524278
+    second: Warrior_SheetnoEffect_190
+  - first:
+      213: -1572179597777611734
+    second: Warrior_SheetnoEffect_191
+  - first:
+      213: 3814821403266793666
+    second: Warrior_SheetnoEffect_192
+  - first:
+      213: 6641304649109869913
+    second: Warrior_SheetnoEffect_193
+  - first:
+      213: -8623925866651197524
+    second: Warrior_SheetnoEffect_194
+  - first:
+      213: 2563151852189266945
+    second: Warrior_SheetnoEffect_195
+  - first:
+      213: 4374849124455332303
+    second: Warrior_SheetnoEffect_196
+  - first:
+      213: -6385490811121028266
+    second: Warrior_SheetnoEffect_197
+  - first:
+      213: 3244621962969399064
+    second: Warrior_SheetnoEffect_198
+  - first:
+      213: 4017791259218689108
+    second: Warrior_SheetnoEffect_199
+  - first:
+      213: 2114175552801801790
+    second: Warrior_SheetnoEffect_200
+  - first:
+      213: -1961636414341857288
+    second: Warrior_SheetnoEffect_201
+  - first:
+      213: -3267424952765670296
+    second: Warrior_SheetnoEffect_202
+  - first:
+      213: 2224328620725699218
+    second: Warrior_SheetnoEffect_203
+  - first:
+      213: 5477447554567003197
+    second: Warrior_SheetnoEffect_204
+  - first:
+      213: -3369421710889522476
+    second: Warrior_SheetnoEffect_205
+  - first:
+      213: 8073201234932309013
+    second: Warrior_SheetnoEffect_206
+  - first:
+      213: -8012669053247793773
+    second: Warrior_SheetnoEffect_207
+  - first:
+      213: 5130231960980354561
+    second: Warrior_SheetnoEffect_208
+  - first:
+      213: -1822337068217752697
+    second: Warrior_SheetnoEffect_209
+  - first:
+      213: 3707064240857083734
+    second: Warrior_SheetnoEffect_210
+  - first:
+      213: -5874080577545362584
+    second: Warrior_SheetnoEffect_211
+  - first:
+      213: -15353377408435171
+    second: Warrior_SheetnoEffect_212
+  - first:
+      213: -6120006815890584613
+    second: Warrior_SheetnoEffect_213
+  - first:
+      213: 4981002331284844858
+    second: Warrior_SheetnoEffect_214
+  - first:
+      213: 4334424391498573106
+    second: Warrior_SheetnoEffect_215
+  - first:
+      213: 7466329650909382360
+    second: Warrior_SheetnoEffect_216
+  - first:
+      213: 5814216955497082591
+    second: Warrior_SheetnoEffect_217
+  - first:
+      213: -4068838366018322678
+    second: Warrior_SheetnoEffect_218
+  - first:
+      213: -4687033614380646281
+    second: Warrior_SheetnoEffect_219
+  - first:
+      213: 5421802796647149091
+    second: Warrior_SheetnoEffect_220
+  - first:
+      213: -4246507234483354204
+    second: Warrior_SheetnoEffect_221
+  - first:
+      213: -7267407649615353544
+    second: Warrior_SheetnoEffect_222
+  - first:
+      213: 7397140634974945248
+    second: Warrior_SheetnoEffect_223
+  - first:
+      213: 4289668428949475778
+    second: Warrior_SheetnoEffect_224
+  - first:
+      213: 7785482107285737732
+    second: Warrior_SheetnoEffect_225
+  - first:
+      213: 4577869115274880100
+    second: Warrior_SheetnoEffect_226
+  - first:
+      213: 8778132277161130770
+    second: Warrior_SheetnoEffect_227
+  - first:
+      213: 3294843636004924756
+    second: Warrior_SheetnoEffect_228
+  - first:
+      213: -3849693616671956701
+    second: Warrior_SheetnoEffect_229
+  - first:
+      213: -2585451254778328069
+    second: Warrior_SheetnoEffect_230
+  - first:
+      213: -415304205221290626
+    second: Warrior_SheetnoEffect_231
+  - first:
+      213: -2347376510608910784
+    second: Warrior_SheetnoEffect_232
+  - first:
+      213: 1075741076294026957
+    second: Warrior_SheetnoEffect_233
+  - first:
+      213: 2960480829899333091
+    second: Warrior_SheetnoEffect_234
+  - first:
+      213: -7245880334702148276
+    second: Warrior_SheetnoEffect_235
+  - first:
+      213: 6487330083570313435
+    second: Warrior_SheetnoEffect_236
+  - first:
+      213: -2566901443804981861
+    second: Warrior_SheetnoEffect_237
+  - first:
+      213: 8230617203190885357
+    second: Warrior_SheetnoEffect_238
+  - first:
+      213: 4225827726745643589
+    second: Warrior_SheetnoEffect_239
+  - first:
+      213: 2018698265796249887
+    second: Warrior_SheetnoEffect_240
+  - first:
+      213: 5303766368596480123
+    second: Warrior_SheetnoEffect_241
+  - first:
+      213: 8282229690243974792
+    second: Warrior_SheetnoEffect_242
+  - first:
+      213: -105071013093996746
+    second: Warrior_SheetnoEffect_243
+  - first:
+      213: -7047778177974176627
+    second: Warrior_SheetnoEffect_244
+  - first:
+      213: 2209168633428748181
+    second: Warrior_SheetnoEffect_245
+  - first:
+      213: 4336973892167280794
+    second: Warrior_SheetnoEffect_246
+  - first:
+      213: 7421791550060099863
+    second: Warrior_SheetnoEffect_247
+  - first:
+      213: 6827896293556468747
+    second: Warrior_SheetnoEffect_248
+  - first:
+      213: -2375261141628467127
+    second: Warrior_SheetnoEffect_249
+  - first:
+      213: -1211053929769128764
+    second: Warrior_SheetnoEffect_250
+  - first:
+      213: -6719322235364868406
+    second: Warrior_SheetnoEffect_251
+  - first:
+      213: 3316922171452545388
+    second: Warrior_SheetnoEffect_252
+  - first:
+      213: -8724327561299133792
+    second: Warrior_SheetnoEffect_253
+  - first:
+      213: -7291489577432674488
+    second: Warrior_SheetnoEffect_254
+  - first:
+      213: -1869022494247830091
+    second: Warrior_SheetnoEffect_255
+  - first:
+      213: -5241578750651022340
+    second: Warrior_SheetnoEffect_256
+  - first:
+      213: 882012835332381844
+    second: Warrior_SheetnoEffect_257
+  - first:
+      213: -7975629171586885048
+    second: Warrior_SheetnoEffect_258
+  - first:
+      213: -4495398831875631434
+    second: Warrior_SheetnoEffect_259
+  - first:
+      213: 9056509809699421227
+    second: Warrior_SheetnoEffect_260
+  - first:
+      213: 4445828506337065194
+    second: Warrior_SheetnoEffect_261
+  - first:
+      213: 4780363299904833644
+    second: Warrior_SheetnoEffect_262
+  - first:
+      213: 6896568870442511978
+    second: Warrior_SheetnoEffect_263
+  - first:
+      213: 3510689365111070058
+    second: Warrior_SheetnoEffect_264
+  - first:
+      213: -1422565028111210607
+    second: Warrior_SheetnoEffect_265
+  - first:
+      213: -6219074739639024731
+    second: Warrior_SheetnoEffect_266
+  - first:
+      213: 4580933873651876440
+    second: Warrior_SheetnoEffect_267
+  - first:
+      213: 6930074542848715166
+    second: Warrior_SheetnoEffect_268
+  - first:
+      213: 270057718831826072
+    second: Warrior_SheetnoEffect_269
+  - first:
+      213: -6973842845533239941
+    second: Warrior_SheetnoEffect_270
+  - first:
+      213: 2357892282455643305
+    second: Warrior_SheetnoEffect_271
+  - first:
+      213: -6771606691514307502
+    second: Warrior_SheetnoEffect_272
+  - first:
+      213: 5772372252105840943
+    second: Warrior_SheetnoEffect_273
+  - first:
+      213: -182063723144252223
+    second: Warrior_SheetnoEffect_274
+  - first:
+      213: -2109795998762664696
+    second: Warrior_SheetnoEffect_275
+  - first:
+      213: 2000195406589407040
+    second: Warrior_SheetnoEffect_276
+  - first:
+      213: 4843683452877386774
+    second: Warrior_SheetnoEffect_277
+  - first:
+      213: -4670140855071929795
+    second: Warrior_SheetnoEffect_278
+  - first:
+      213: -8197365558910247265
+    second: Warrior_SheetnoEffect_279
+  - first:
+      213: 4381101295492107280
+    second: Warrior_SheetnoEffect_280
+  - first:
+      213: -1755148362789516512
+    second: Warrior_SheetnoEffect_281
+  - first:
+      213: -2528568817116560458
+    second: Warrior_SheetnoEffect_282
+  - first:
+      213: -8108217294361891688
+    second: Warrior_SheetnoEffect_283
+  - first:
+      213: -1704584528379269646
+    second: Warrior_SheetnoEffect_284
+  - first:
+      213: 6204464621707665714
+    second: Warrior_SheetnoEffect_285
+  - first:
+      213: -3632224553609260631
+    second: Warrior_SheetnoEffect_286
+  - first:
+      213: -5473085909124230116
+    second: Warrior_SheetnoEffect_287
+  - first:
+      213: 1757900711738926338
+    second: Warrior_SheetnoEffect_288
+  - first:
+      213: 8261428135123513721
+    second: Warrior_SheetnoEffect_289
+  - first:
+      213: 3181558013977169305
+    second: Warrior_SheetnoEffect_290
+  - first:
+      213: -3992826576399163229
+    second: Warrior_SheetnoEffect_291
+  - first:
+      213: -1828840284834854587
+    second: Warrior_SheetnoEffect_292
+  - first:
+      213: 4072324729938136148
+    second: Warrior_SheetnoEffect_293
+  - first:
+      213: -4056299936707905528
+    second: Warrior_SheetnoEffect_294
+  - first:
+      213: -9209024368905990083
+    second: Warrior_SheetnoEffect_295
+  - first:
+      213: -5908835031721151439
+    second: Warrior_SheetnoEffect_296
+  - first:
+      213: -3998101343062841068
+    second: Warrior_SheetnoEffect_297
+  - first:
+      213: 2825250641147783206
+    second: Warrior_SheetnoEffect_298
+  - first:
+      213: -6905845030296729616
+    second: Warrior_SheetnoEffect_299
+  - first:
+      213: 8676783171258010230
+    second: Warrior_SheetnoEffect_300
+  - first:
+      213: 4221587301725980026
+    second: Warrior_SheetnoEffect_301
+  - first:
+      213: -3769945982926941721
+    second: Warrior_SheetnoEffect_302
+  - first:
+      213: 2302792406258184386
+    second: Warrior_SheetnoEffect_303
+  - first:
+      213: 9220656422412290363
+    second: Warrior_SheetnoEffect_304
+  - first:
+      213: 6591593549542609780
+    second: Warrior_SheetnoEffect_305
+  - first:
+      213: 7101086343633725486
+    second: Warrior_SheetnoEffect_306
+  - first:
+      213: -7224500178953325872
+    second: Warrior_SheetnoEffect_307
+  - first:
+      213: -2045319149321443937
+    second: Warrior_SheetnoEffect_308
+  - first:
+      213: -8122665300248805507
+    second: Warrior_SheetnoEffect_309
+  - first:
+      213: -215313062362959123
+    second: Warrior_SheetnoEffect_310
+  - first:
+      213: -8551326400422895930
+    second: Warrior_SheetnoEffect_311
+  - first:
+      213: -4027722453494712292
+    second: Warrior_SheetnoEffect_312
+  - first:
+      213: -2679864081762175028
+    second: Warrior_SheetnoEffect_313
+  - first:
+      213: 9153410493115767500
+    second: Warrior_SheetnoEffect_314
+  - first:
+      213: 8677317809249270649
+    second: Warrior_SheetnoEffect_315
+  - first:
+      213: -8657477743607875275
+    second: Warrior_SheetnoEffect_316
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca0c1f7d59014410800000000000000
+      internalID: 1459458051413904079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c0d5334f70cf400800000000000000
+      internalID: 359170815697947668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85026aba1a1aed80800000000000000
+      internalID: -8220729467712961139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2cc4b787808150800000000000000
+      internalID: 5872842931014740882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8223a3331424f8e50800000000000000
+      internalID: 6813737609034609192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca885dc22a26110800000000000000
+      internalID: 1252741959807183917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003b09bc73fb1d7f0800000000000000
+      internalID: -589479829849459968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a3040c222e11e0800000000000000
+      internalID: -2225303593433192470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc578d7f9390e900800000000000000
+      internalID: 711731054339644605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de07f058533ff7a70800000000000000
+      internalID: 8827041205860659437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3461251ad94fd11c0800000000000000
+      internalID: -4531196692211296701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 308
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6420b75027712f0800000000000000
+      internalID: -1002207024202496282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bfc94b00e739dc0800000000000000
+      internalID: -3633421932862571679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4302d98fdcb60a390800000000000000
+      internalID: -7809123221476925388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f60085f257616390800000000000000
+      internalID: -7826861071389423882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef5f3fa8365be450800000000000000
+      internalID: 6119079320171274209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88049296ca3de7a40800000000000000
+      internalID: 5367960543324356744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 264
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca5e48c61e0e9190800000000000000
+      internalID: -7953904400877069620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5875f0b2c5a44a7e0800000000000000
+      internalID: -1755196195047778427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de1e3b480983edc0800000000000000
+      internalID: -3610891807505899824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d1ff6c9a835edd0800000000000000
+      internalID: -2457495719821501130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a017c6fae5fa6020800000000000000
+      internalID: 2335949746256416935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c160dd9ccd7af10800000000000000
+      internalID: 2281034495841147979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3c28d624910680800000000000000
+      internalID: -8790582103094051324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d18d6b3700d62440800000000000000
+      internalID: 4910841173174485456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342a265d6f0ae2e90800000000000000
+      internalID: -7048519384785837501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2264ec94c5c140800000000000000
+      internalID: 4739410361002896916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f126616671dd2a70800000000000000
+      internalID: 8803923152949617137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17e6dddfe964c660800000000000000
+      internalID: 7405160166243886877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1276e7340e1b1df90800000000000000
+      internalID: -6930562774783334623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa1bbfae18b52150800000000000000
+      internalID: 5847282133147261615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f2de35efba23d20800000000000000
+      internalID: 3256854589360385887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc06636805b15f420800000000000000
+      internalID: 2663064787322560717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa34ea0fbf8a4490800000000000000
+      internalID: -7761232957135373661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e11500e612706f0800000000000000
+      internalID: -718568859206869386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 132
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0268fc6de19f9270800000000000000
+      internalID: 8259480690542273036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22d0981e85a7830800000000000000
+      internalID: 4069662938972889761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3492f7f46675600800000000000000
+      internalID: 456946378823254976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756abcec61a02ee90800000000000000
+      internalID: -6998019777905318313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2148fcdd9383110800000000000000
+      internalID: 1240805322172666571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9344515de5bc92370800000000000000
+      internalID: 8298387396569154617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 88
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fa3afbc147ce9a0800000000000000
+      internalID: -6202454919972933791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5651d7e8210ede0800000000000000
+      internalID: -1306023488744233559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e9fadb284abd50800000000000000
+      internalID: 6753789944390083632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30f9e50bf60196b0800000000000000
+      internalID: -5291440411977846726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252fe5e6acadbc740800000000000000
+      internalID: 5173469159935111762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91122f2c94869d9d0800000000000000
+      internalID: -2749051431520427751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 44
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb968feadd2f8e8e0800000000000000
+      internalID: -1663813028376188481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_SheetnoEffect_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a053d020ef722eb0800000000000000
+      internalID: -4746090456694959965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
