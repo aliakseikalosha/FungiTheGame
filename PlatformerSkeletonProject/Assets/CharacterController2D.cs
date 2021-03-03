@@ -55,15 +55,18 @@ public class CharacterController2D : MonoBehaviour
 	private void Update()
 	{
 		GetPlayerInput();
+	
 		AnimatePlayer(horizontalInput);
 	}
 
 	private void FixedUpdate()
 	{
-		Move(horizontalInput * Time.fixedDeltaTime, false, jumpInput);
-		jumpInput = false;
+		Move(horizontalInput * Time.fixedDeltaTime, false);
 
-		CheckForGround();
+		if (jumpInput) Jump(jumpInput);
+		else CheckForGround();
+		
+		jumpInput = false;
 	}
 
 	private void GetPlayerInput()
@@ -71,10 +74,11 @@ public class CharacterController2D : MonoBehaviour
 		horizontalInput = Input.GetAxisRaw("Horizontal") * speed;
 
 		if (Input.GetButtonDown("Jump")) jumpInput = true;
+
 		
 	}
 
-	private void Move(float move, bool crouch, bool jump)
+	private void Move(float move, bool crouch)
 	{
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
@@ -135,12 +139,19 @@ public class CharacterController2D : MonoBehaviour
 				Flip();
 			}
 		}
+
+	}
+
+	private void Jump(bool jump)
+	{
 		// If the player should jump...
 		if (isGrounded && jump)
 		{
 			// Add a vertical force to the player.
 			isGrounded = false;		
 			rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+			animator.SetTrigger("Jump");
+
 		}
 	}
 
