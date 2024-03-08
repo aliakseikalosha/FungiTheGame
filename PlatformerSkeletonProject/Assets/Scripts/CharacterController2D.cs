@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -27,14 +28,13 @@ public class CharacterController2D : MonoBehaviour
 	private bool jumpInput;
 
 	private Animator animator;
-	
 
-	[Header("Events")]
+    [Header("Events")]
 	[Space]
 
 	public UnityEvent OnLandEvent;
 
-	[System.Serializable]
+    [System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
 	public BoolEvent OnCrouchEvent;
@@ -74,11 +74,9 @@ public class CharacterController2D : MonoBehaviour
 		horizontalInput = Input.GetAxisRaw("Horizontal") * speed;
 
 		if (Input.GetButtonDown("Jump")) jumpInput = true;
+    }
 
-		
-	}
-
-	private void Move(float move, bool crouch)
+    private void Move(float move, bool crouch)
 	{
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
