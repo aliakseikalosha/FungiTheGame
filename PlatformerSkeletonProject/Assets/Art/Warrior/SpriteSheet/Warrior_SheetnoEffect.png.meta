@@ -954,7 +954,7 @@ TextureImporter:
       213: -8657477743607875275
     second: Warrior_SheetnoEffect_316
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -971,9 +971,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -983,8 +986,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1005,10 +1008,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1020,6 +1028,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1032,6 +1041,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2076,9 +2125,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Warrior_SheetnoEffect_0: 1459458051413904079
+      Warrior_SheetnoEffect_1: 359170815697947668
+      Warrior_SheetnoEffect_10: -4531196692211296701
+      Warrior_SheetnoEffect_11: -1002207024202496282
+      Warrior_SheetnoEffect_12: -3633421932862571679
+      Warrior_SheetnoEffect_13: -7809123221476925388
+      Warrior_SheetnoEffect_14: -7826861071389423882
+      Warrior_SheetnoEffect_15: 6119079320171274209
+      Warrior_SheetnoEffect_16: 5367960543324356744
+      Warrior_SheetnoEffect_17: -7953904400877069620
+      Warrior_SheetnoEffect_18: -1755196195047778427
+      Warrior_SheetnoEffect_19: -3610891807505899824
+      Warrior_SheetnoEffect_2: -8220729467712961139
+      Warrior_SheetnoEffect_20: -2457495719821501130
+      Warrior_SheetnoEffect_21: 2335949746256416935
+      Warrior_SheetnoEffect_22: 2281034495841147979
+      Warrior_SheetnoEffect_23: -8790582103094051324
+      Warrior_SheetnoEffect_24: 4910841173174485456
+      Warrior_SheetnoEffect_25: -7048519384785837501
+      Warrior_SheetnoEffect_26: 4739410361002896916
+      Warrior_SheetnoEffect_27: 8803923152949617137
+      Warrior_SheetnoEffect_28: 7405160166243886877
+      Warrior_SheetnoEffect_29: -6930562774783334623
+      Warrior_SheetnoEffect_3: 5872842931014740882
+      Warrior_SheetnoEffect_30: 5847282133147261615
+      Warrior_SheetnoEffect_31: 3256854589360385887
+      Warrior_SheetnoEffect_32: 2663064787322560717
+      Warrior_SheetnoEffect_33: -7761232957135373661
+      Warrior_SheetnoEffect_34: -718568859206869386
+      Warrior_SheetnoEffect_35: 8259480690542273036
+      Warrior_SheetnoEffect_36: 4069662938972889761
+      Warrior_SheetnoEffect_37: 456946378823254976
+      Warrior_SheetnoEffect_38: -6998019777905318313
+      Warrior_SheetnoEffect_39: 1240805322172666571
+      Warrior_SheetnoEffect_4: 6813737609034609192
+      Warrior_SheetnoEffect_40: 8298387396569154617
+      Warrior_SheetnoEffect_41: -6202454919972933791
+      Warrior_SheetnoEffect_42: -1306023488744233559
+      Warrior_SheetnoEffect_43: 6753789944390083632
+      Warrior_SheetnoEffect_44: -5291440411977846726
+      Warrior_SheetnoEffect_45: 5173469159935111762
+      Warrior_SheetnoEffect_46: -2749051431520427751
+      Warrior_SheetnoEffect_47: -1663813028376188481
+      Warrior_SheetnoEffect_48: -4746090456694959965
+      Warrior_SheetnoEffect_5: 1252741959807183917
+      Warrior_SheetnoEffect_6: -589479829849459968
+      Warrior_SheetnoEffect_7: -2225303593433192470
+      Warrior_SheetnoEffect_8: 711731054339644605
+      Warrior_SheetnoEffect_9: 8827041205860659437
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
