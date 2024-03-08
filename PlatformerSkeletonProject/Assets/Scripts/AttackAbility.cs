@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tutorial_AttackAbility : MonoBehaviour
+public class AttackAbility : MonoBehaviour
 {
     public Animator animator;
     public Transform attackPoint;
