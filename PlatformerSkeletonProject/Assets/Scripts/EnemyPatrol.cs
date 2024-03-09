@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -11,8 +12,6 @@ public class EnemyPatrol : MonoBehaviour
     public Animator Animator;
     private Transform currentPoint;
     public float Speed;
-
-    Health HP = new Health();
 
     // Start is called before the first frame update
     void Start()
@@ -69,6 +68,13 @@ public class EnemyPatrol : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             collision.gameObject.GetComponent<PlayerHealth>().GetHurt();
+            Animator.SetTrigger("Attacking");
         }
+    }
+
+    public void Death()
+    {
+        GameEvents.AddScore(50);
+        Animator.SetTrigger("Dying");
     }
 }

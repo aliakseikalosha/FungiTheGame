@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class AttackAbility : MonoBehaviour
@@ -8,6 +9,8 @@ public class AttackAbility : MonoBehaviour
     public Animator Animator;
     public Transform AttackPoint;
     public LayerMask AttackLayers;
+
+    private bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +35,14 @@ public class AttackAbility : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            GameEvents.AddScore(50);
-            Destroy(hit.gameObject);
+            hit.gameObject.GetComponent<EnemyPatrol>().Death();
+            StartCoroutine(Die(hit));
         }
     }
+
+    IEnumerator Die(Collider2D hit)
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(hit.gameObject);
+    }   
 }
