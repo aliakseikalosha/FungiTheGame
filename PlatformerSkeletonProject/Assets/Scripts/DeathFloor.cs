@@ -23,8 +23,7 @@ public class DeathFloor : MonoBehaviour
 
             if (deathFloor.position.y > player.position.y)
             {
-                Debug.Log("To do death screen");
-                SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+                GameEvents.PlayerDie();
             }
         }
     }
