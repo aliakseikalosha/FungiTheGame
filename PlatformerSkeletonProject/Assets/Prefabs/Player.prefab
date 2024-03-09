@@ -191,9 +191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885522953d221fd4cbb6613b540348db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 3207572578014715834}
-  attackPoint: {fileID: 6485450539819636017}
-  attackLayers:
+  Animator: {fileID: 3207572578014715834}
+  AttackPoint: {fileID: 6485450539819636017}
+  AttackLayers:
     serializedVersion: 2
     m_Bits: 1024
 --- !u!1 &3207572576697254717

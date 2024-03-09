@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class AttackAbility : MonoBehaviour
 {
-    public Animator animator;
-    public Transform attackPoint;
-    public LayerMask attackLayers;
+    public Animator Animator;
+    public Transform AttackPoint;
+    public LayerMask AttackLayers;
 
     // Start is called before the first frame update
     void Start()
@@ -26,14 +26,14 @@ public class AttackAbility : MonoBehaviour
 
     private void Attack()
     {
-        animator.SetTrigger("Attacking");
+        Animator.SetTrigger("Attacking");
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, 1, attackLayers);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(AttackPoint.position, 1, AttackLayers);
 
         foreach (var hit in hits)
         {
+            Debug.Log("zabil");
             Destroy(hit.gameObject);
         }
-
     }
 }
