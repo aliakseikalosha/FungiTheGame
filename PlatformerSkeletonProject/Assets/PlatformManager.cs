@@ -7,6 +7,10 @@ public class PlatformManager : MonoBehaviour
     [SerializeField]
     Transform platformContainer;
     [SerializeField]
+    int startSpawnCount;
+    [SerializeField]
+    Vector2 horizontalSpawnRange;
+    [SerializeField]
     float platformDistance;
     [SerializeField]
     int maxPlatformCount;
@@ -37,6 +41,9 @@ public class PlatformManager : MonoBehaviour
     {
         floorCounter = 0;
         timer = 0;
+
+        for (int i = 0; i < startSpawnCount; i++)
+            SpawnPlatform();
     }
 
     private void Update()
@@ -81,7 +88,8 @@ public class PlatformManager : MonoBehaviour
 
     private Vector3 CalculatePosition()
     {
-        Vector2 position = new Vector2(0, floorCounter * platformDistance);
+        float horizontal = Random.Range(horizontalSpawnRange.x, horizontalSpawnRange.y);
+        Vector2 position = new Vector2(horizontal, floorCounter * platformDistance);
 
         floorCounter++;
 

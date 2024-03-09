@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformContainer: {fileID: 2013696713}
+  horizontalSpawnRange: {x: -10, y: 10}
   platformDistance: 3
   maxPlatformCount: 10
   spawnTimer: 2
