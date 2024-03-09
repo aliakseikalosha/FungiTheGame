@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderGraph.Drawing;
 using UnityEngine;
 
 public class PlatformManager : MonoBehaviour
 {
     [SerializeField]
     Transform platformContainer;
+    [SerializeField]
+    Transform backgroundContainer;
+    [SerializeField]
+    float backgroundHeight;
     [SerializeField]
     int startSpawnCount;
     [SerializeField]
@@ -18,11 +23,14 @@ public class PlatformManager : MonoBehaviour
     float spawnTimer;
 
     List<GameObject> platforms;
+    List<GameObject> backgrounds;
 
     const string platformFolder = "Platforms";
+    const string backgroundFolder = "Backgrounds";
 
 
     private List<GameObject> activePlatforms;
+    private List<GameObject> activeBackgrounds;
 
 
     int floorCounter;
@@ -33,8 +41,10 @@ public class PlatformManager : MonoBehaviour
 
     private void Awake()
     {
-        LoadAllPlatforms();   
+        LoadAllPlatforms();
+        LoadAllBackgrounds();
         activePlatforms = new List<GameObject>();
+        activeBackgrounds = new List<GameObject>();
     }
 
     private IEnumerator Start()
@@ -75,6 +85,13 @@ public class PlatformManager : MonoBehaviour
         GameObject oldest = activePlatforms[0];
         activePlatforms.RemoveAt(0);
 
+        if (oldest.transform.position.y > activeBackgrounds[0].transform.position.y)
+        {
+            GameObject background = activeBackgrounds[0];
+            activeBackgrounds.RemoveAt(0);
+            Destroy(background);
+        }
+
         Destroy(oldest);
     }
 
@@ -89,6 +106,32 @@ public class PlatformManager : MonoBehaviour
         platform.transform.localPosition = CalculatePosition();
 
         activePlatforms.Add(platform);
+
+        if (activeBackgrounds.Count == 0 || platform.transform.position.y > activeBackgrounds[activeBackgrounds.Count - 1].transform.position.y)
+        {
+            SpawnBackground();
+        }
+    }
+
+
+    private void SpawnBackground()
+    {
+        GameObject backgroundPrefab = backgrounds[Random.Range(0, backgrounds.Count)];
+
+        GameObject background = Instantiate(backgroundPrefab, backgroundContainer);
+
+        if (activeBackgrounds.Count > 0)
+        {
+            float topPosition = activeBackgrounds[activeBackgrounds.Count - 1].transform.localPosition.y;
+
+            background.transform.localPosition = new Vector2(0, topPosition + backgroundHeight);
+        }
+        else
+        {
+            background.transform.localPosition = new Vector2(0, 0);
+        }
+
+        activeBackgrounds.Add(background);
     }
 
 
@@ -114,6 +157,22 @@ public class PlatformManager : MonoBehaviour
             if (prefab != null)
             {
                 platforms.Add(prefab); // loading
+            }
+        }
+    }
+
+    private void LoadAllBackgrounds()
+    {
+        backgrounds = new List<GameObject>();
+
+        Object[] loadedPrefabs = Resources.LoadAll(backgroundFolder, typeof(GameObject)); // load all prefabs from folder
+
+        foreach (Object obj in loadedPrefabs)
+        {
+            GameObject prefab = obj as GameObject;
+            if (prefab != null)
+            {
+                backgrounds.Add(prefab); // loading
             }
         }
     }
