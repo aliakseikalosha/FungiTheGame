@@ -11,11 +11,19 @@ public class DeathFloor : MonoBehaviour
     [SerializeField] private float speed = 1.0f;
     private bool hasPasMinHeight;
 
+    private void Awake()
+    {
+        deathFloor.gameObject.SetActive(false);
+        Debug.Log("Debug turn off", deathFloor);
+    }
+
     private void Update()
     {
         if(minHeightToActivate < player.position.y)
         {
             hasPasMinHeight = true;
+            deathFloor.gameObject.SetActive(true);
+            Debug.Log("Debug turn on", deathFloor);
         }
         if (hasPasMinHeight)
         {
