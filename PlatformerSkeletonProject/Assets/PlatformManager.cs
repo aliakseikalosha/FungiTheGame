@@ -37,13 +37,19 @@ public class PlatformManager : MonoBehaviour
         activePlatforms = new List<GameObject>();
     }
 
-    private void Start()
+    private IEnumerator Start()
     {
         floorCounter = 0;
         timer = 0;
 
         for (int i = 0; i < startSpawnCount; i++)
+        {
             SpawnPlatform();
+            if(i % 4 == 0)
+            {
+                yield return null;
+            }
+        }
     }
 
     private void Update()

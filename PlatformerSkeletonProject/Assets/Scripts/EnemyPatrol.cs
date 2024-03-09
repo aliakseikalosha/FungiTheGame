@@ -10,6 +10,7 @@ public class EnemyPatrol : MonoBehaviour
     private Transform currentPoint;
     public float Speed;
     private bool canMove = true;
+    private bool dead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canMove)
+        if (canMove && !dead)
         {
             if (currentPoint == PointB.transform)
             {
@@ -76,6 +77,10 @@ public class EnemyPatrol : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (dead)
+        {
+            return;
+        }
         if (collision.gameObject.name == "Player")
         {
             Flip(collision.transform);
@@ -86,6 +91,11 @@ public class EnemyPatrol : MonoBehaviour
 
     public void Death()
     {
+        if (dead)
+        {
+            return;
+        }
+        dead = true;
         GameEvents.AddScore(50);
         Animator.SetTrigger("Dying");
     }
