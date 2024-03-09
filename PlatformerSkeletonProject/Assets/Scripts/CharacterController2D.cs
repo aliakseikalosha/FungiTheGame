@@ -16,6 +16,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private Transform groundCheck;                           // A position marking where to check if the player is grounded.
     [SerializeField] private Transform ceilingCheck;                          // A position marking where to check for ceilings
     [SerializeField] private Collider2D crouchDisableCollider;                // A collider that will be disabled when crouching
+    [SerializeField] List<Collider2D> allColliders;
 
     const float k_GroundedRadius = .2f;             // Radius of the overlap circle to determine if grounded
     [SerializeField] private bool isGrounded;       // Whether or not the player is grounded.
@@ -45,6 +46,7 @@ public class CharacterController2D : MonoBehaviour
     private bool groundPounded = false;
     private List<IGroundPoundEffect> groundPoundedAffected = new List<IGroundPoundEffect>();
 
+
     private void Awake()
     {
         maxHeightReached = (int)transform.position.y;
@@ -63,6 +65,14 @@ public class CharacterController2D : MonoBehaviour
         GetPlayerInput();
 
         AnimatePlayer(horizontalInput);
+
+
+        bool collEnable = myRigidbody2D.velocity.y <= 0;
+
+        foreach (Collider2D coll in allColliders)
+        {
+            coll.enabled = collEnable;
+        }
     }
 
     private void FixedUpdate()
