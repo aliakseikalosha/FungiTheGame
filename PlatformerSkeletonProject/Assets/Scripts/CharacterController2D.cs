@@ -28,6 +28,7 @@ public class CharacterController2D : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     private bool jumpInput;
+    private int maxHeightReached = 0;
 
     private Animator animator;
 
@@ -46,6 +47,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void Awake()
     {
+        maxHeightReached = (int)transform.position.y;
         myRigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
 
@@ -209,6 +211,11 @@ public class CharacterController2D : MonoBehaviour
                 groundPounded = false;
                 if (!wasGrounded)
                 {
+                    if (transform.position.y > maxHeightReached)
+                    {
+                        GameEvents.AddScore((int)(transform.position.y - maxHeightReached) * 10);
+                        maxHeightReached = (int)transform.position.y;
+                    }
                     OnLandEvent.Invoke();
                 }
             }

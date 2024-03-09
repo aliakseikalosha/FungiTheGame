@@ -32,7 +32,7 @@ public class AttackAbility : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            Debug.Log("zabil");
+            GameEvents.AddScore(50);
             Destroy(hit.gameObject);
         }
     }
