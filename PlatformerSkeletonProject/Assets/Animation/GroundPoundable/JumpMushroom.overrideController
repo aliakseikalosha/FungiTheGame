@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JumpMushroom
+  m_Controller: {fileID: 9100000, guid: 0538830f876b14ac78fb96aeb8c00a51, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0aecb0592841d4b26a678c952d8a86d5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0aecb0592841d4b26a678c952d8a86d5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1c9cbc709aaab48f39ba5798db16bb53, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1c9cbc709aaab48f39ba5798db16bb53, type: 2}
