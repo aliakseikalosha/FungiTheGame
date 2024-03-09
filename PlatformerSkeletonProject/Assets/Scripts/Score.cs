@@ -9,6 +9,7 @@ public class Score : MonoBehaviour
     private void Awake()
     {
         ScoreCount = 0;
+        AddScore(0);
         GameEvents.OnScoreGain += AddScore;
         GameEvents.OnDeath += PlayerDeath;
     }
