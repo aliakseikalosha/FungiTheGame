@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class EnemyPatrol : MonoBehaviour
 {
@@ -12,6 +9,7 @@ public class EnemyPatrol : MonoBehaviour
     public Animator Animator;
     private Transform currentPoint;
     public float Speed;
+    private bool canMove = true;
 
     // Start is called before the first frame update
     void Start()
@@ -24,30 +22,43 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentPoint == PointB.transform)
+        if (canMove)
         {
-            rb.velocity = new Vector2(Speed, 0);
+            if (currentPoint == PointB.transform)
+            {
+                rb.velocity = new Vector2(Speed, 0);
+            }
+            else
+            {
+                rb.velocity = new Vector2(-Speed, 0);
+            }
+            if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == PointB.transform)
+            {
+                currentPoint = PointA.transform;
+                Flip();
+            }
+            if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == PointA.transform)
+            {
+                currentPoint = PointB.transform;
+                Flip();
+            }
         }
         else
         {
-            rb.velocity = new Vector2(-Speed, 0);
-        }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == PointB.transform)
-        {
-            flip();
-            currentPoint = PointA.transform;
-        }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == PointA.transform)
-        {
-            flip();
-            currentPoint = PointB.transform;
+            rb.velocity = Vector2.zero;
         }
     }
 
-    private void flip()
+    public void Flip(Transform target = null)
     {
+        if (target == null)
+        {
+            target = currentPoint;
+        }
+        canMove = true;
+
         Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
+        localScale.x = target.position.x < transform.position.x ? -1 * Mathf.Abs(localScale.x) : Mathf.Abs(localScale.x);
         transform.localScale = localScale;
     }
 
@@ -67,8 +78,9 @@ public class EnemyPatrol : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            collision.gameObject.GetComponent<PlayerHealth>().GetHurt();
-            Animator.SetTrigger("Attacking");
+            Flip(collision.transform);
+            Animator.SetTrigger(Random.value > 0.5f ? "Attacking" : "Attacking2");
+            canMove = false;
         }
     }
 

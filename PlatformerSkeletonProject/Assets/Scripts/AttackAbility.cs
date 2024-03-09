@@ -36,13 +36,6 @@ public class AttackAbility : MonoBehaviour
         foreach (var hit in hits)
         {
             hit.gameObject.GetComponent<EnemyPatrol>().Death();
-            StartCoroutine(Die(hit));
         }
     }
-
-    IEnumerator Die(Collider2D hit)
-    {
-        yield return new WaitForSeconds(1);
-        Destroy(hit.gameObject);
-    }   
 }
