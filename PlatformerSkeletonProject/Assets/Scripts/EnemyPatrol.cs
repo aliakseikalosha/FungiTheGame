@@ -51,9 +51,14 @@ public class EnemyPatrol : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(PointA.transform.position, 1f);
-        Gizmos.DrawWireSphere(PointB.transform.position, 1f);
-        Gizmos.DrawLine(PointA.transform.position, PointB.transform.position);
+        if (PointA && PointB)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(PointA.transform.position, 1f);
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(PointB.transform.position, 1f);
+            Gizmos.DrawLine(PointA.transform.position, PointB.transform.position);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
