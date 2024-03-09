@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyPatrol : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class EnemyPatrol : MonoBehaviour
     public Animator Animator;
     private Transform currentPoint;
     public float Speed;
+
+    Health HP = new Health();
 
     // Start is called before the first frame update
     void Start()
@@ -65,12 +68,7 @@ public class EnemyPatrol : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            Attack();
+            collision.gameObject.GetComponent<PlayerHealth>().GetHurt();
         }
-    }
-
-    void Attack()
-    {
-        Debug.Log("umrel");
     }
 }
