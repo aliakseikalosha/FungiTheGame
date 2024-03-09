@@ -1,17 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class Score : MonoBehaviour
 {
     public TextMeshProUGUI Text;
-    public int ScoreCount;
+    public static int ScoreCount;
 
     private void Awake()
     {
+        ScoreCount = 0;
         GameEvents.OnScoreGain += AddScore;
+        GameEvents.OnDeath += PlayerDeath;
+    }
+
+    private void PlayerDeath()
+    {
+        GameEvents.OnScoreGain -= AddScore;
+        GameEvents.OnDeath -= PlayerDeath;
     }
 
     private void AddScore(int score)

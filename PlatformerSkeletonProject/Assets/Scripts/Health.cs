@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         GameEvents.OnHealthChange += UpdateHealth;
+        GameEvents.OnDeath += PLayerDeath;
 
         for (int i = 0; i < Hearts.Length; i++)
         {
@@ -26,6 +27,12 @@ public class Health : MonoBehaviour
                 Hearts[i].enabled = false;
             }
         }
+    }
+
+    private void PLayerDeath()
+    {
+        GameEvents.OnHealthChange -= UpdateHealth;
+        GameEvents.OnDeath -= PLayerDeath;
     }
 
     private void UpdateHealth(int health)

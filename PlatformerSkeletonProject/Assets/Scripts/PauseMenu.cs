@@ -20,6 +20,13 @@ public class PauseMenu : MonoBehaviour
         {
             quit.gameObject.SetActive(false);
         }
+        GameEvents.OnDeath += LoadResult;
+    }
+
+    private void LoadResult()
+    {
+        GameEvents.OnDeath -= LoadResult;
+        SceneManager.LoadSceneAsync("ResultScreen");
     }
 
     private void RestartLevel()
