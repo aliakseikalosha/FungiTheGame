@@ -67,7 +67,7 @@ public class CharacterController2D : MonoBehaviour
         AnimatePlayer(horizontalInput);
 
 
-        bool collEnable = myRigidbody2D.velocity.y <= 0;
+        bool collEnable = myRigidbody2D.velocity.y <= 0 && !Input.GetKey(KeyCode.S);
 
         foreach (Collider2D coll in allColliders)
         {
