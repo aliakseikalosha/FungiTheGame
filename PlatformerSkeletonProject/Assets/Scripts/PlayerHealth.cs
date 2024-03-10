@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health = 3;
     private bool isInvincible = false;
+    [SerializeField] private AudioClip getHurt;
+    [SerializeField] private AudioSource audioSource;
 
     IEnumerator GetInvincible()
     {
@@ -23,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         health--;
         GameEvents.UpdateHealth(health);
         StartCoroutine(GetInvincible());
+        audioSource.PlayOneShot(getHurt);
 
         if (health == 0)
         {
