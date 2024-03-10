@@ -212,6 +212,7 @@ public class CharacterController2D : MonoBehaviour
                 isGrounded = true;
                 if (groundPounded)
                 {
+                    myRigidbody2D.velocity = Vector2.zero;
                     foreach (var groundPound in groundPoundedAffected)
                     {
                         groundPound.ApplyEffect(this.gameObject);
