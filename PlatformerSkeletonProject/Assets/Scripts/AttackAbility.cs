@@ -10,6 +10,10 @@ public class AttackAbility : MonoBehaviour
     public Transform AttackPoint;
     public LayerMask AttackLayers;
 
+    public AudioSource MyFX;
+    public AudioClip EmptySlashFX;
+    public AudioClip HitSlashFX;
+
     private bool isDead = false;
 
     // Start is called before the first frame update
