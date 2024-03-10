@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlatformManager : MonoBehaviour
@@ -20,6 +21,8 @@ public class PlatformManager : MonoBehaviour
     int maxPlatformCount;
     [SerializeField]
     float spawnTimer;
+    [SerializeField]
+    Transform player;
 
     List<GameObject> platforms;
     List<GameObject> backgrounds;
@@ -65,9 +68,13 @@ public class PlatformManager : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer >= nextSpawnTime)
+        if (activePlatforms.Last().transform.position.y - player.position.y < 40)
         {
             SpawnPlatform();
+        }
+        if (timer >= nextSpawnTime)
+        {
+            //SpawnPlatform();
             nextSpawnTime = timer + spawnTimer;
         }
 
@@ -97,6 +104,7 @@ public class PlatformManager : MonoBehaviour
 
     private void SpawnPlatform()
     {
+        
         //take random platform
         GameObject platformPrefab = platforms[Random.Range(0, platforms.Count)];
 

@@ -860,6 +860,7 @@ MonoBehaviour:
   platformDistance: 4
   maxPlatformCount: 50
   spawnTimer: 0.5
+  player: {fileID: 1667758808}
 --- !u!4 &1051200705
 Transform:
   m_ObjectHideFlags: 0
@@ -14891,7 +14892,7 @@ PrefabInstance:
     - target: {fileID: 431814813398074857, guid: 40e4b62966d773e4a92b26958221a0b6,
         type: 3}
       propertyPath: orthographic size
-      value: 5.3999996
+      value: 2.33
       objectReference: {fileID: 0}
     - target: {fileID: 5479075353540798929, guid: 40e4b62966d773e4a92b26958221a0b6,
         type: 3}
