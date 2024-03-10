@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class DeathFloor : MonoBehaviour
 {
     [SerializeField] private Transform player;
+    [SerializeField] private Transform upperLimit;
     [SerializeField] private Transform deathFloor;
     [SerializeField] private float minHeightToActivate;
     [SerializeField] private float speed = 1.0f;
@@ -13,8 +14,7 @@ public class DeathFloor : MonoBehaviour
 
     private void Awake()
     {
-        deathFloor.gameObject.SetActive(false);
-        Debug.Log("Debug turn off", deathFloor);
+        UpdateUperLimit();
     }
 
     private void Update()
@@ -22,8 +22,6 @@ public class DeathFloor : MonoBehaviour
         if(minHeightToActivate < player.position.y)
         {
             hasPasMinHeight = true;
-            deathFloor.gameObject.SetActive(true);
-            Debug.Log("Debug turn on", deathFloor);
         }
         if (hasPasMinHeight)
         {
@@ -34,5 +32,13 @@ public class DeathFloor : MonoBehaviour
                 GameEvents.PlayerDie();
             }
         }
+        UpdateUperLimit();
+    }
+
+    private void UpdateUperLimit()
+    {
+        var p = deathFloor.position;
+        p.y = player.position.y + Mathf.Abs(deathFloor.position.y - player.position.y);
+        upperLimit.position = p;
     }
 }
