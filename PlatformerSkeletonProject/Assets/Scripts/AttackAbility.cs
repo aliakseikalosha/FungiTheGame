@@ -36,10 +36,12 @@ public class AttackAbility : MonoBehaviour
         Animator.SetTrigger("Attacking");
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(AttackPoint.position, 1, AttackLayers);
-
+        bool hitAnyone = false;
         foreach (var hit in hits)
         {
             hit.gameObject.GetComponent<EnemyPatrol>().Death();
+            hitAnyone = true;
         }
+        MyFX.PlayOneShot(hitAnyone ? HitSlashFX : EmptySlashFX);
     }
 }

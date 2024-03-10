@@ -9,3 +9,6 @@ https://ansimuz.itch.io/sunny-land-pixel-game-art
 
 Pixelify Sans Font Asset
 https://fonts.google.com/specimen/Pixelify+Sans
+
+Written by Rafael Krux. This music is available for commercial and non-commercial purposes.
+https://freepd.com/epic.php
